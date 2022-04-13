@@ -46,12 +46,8 @@ body{
     left: 95%;
 }
 
-.label:checked{
-    background-color: var(--bg-color);
-}
-
 .label{
-    background-color: #111;
+    background-color: var(--color-font);
 
     left: 95%;
     display: flex;
@@ -66,7 +62,7 @@ body{
 }
 
 .ball{
-    background-color: #fff;
+    background-color: var(--bg-color);
     position: absolute;
     height: 22px;
     width: 22px;
@@ -127,10 +123,6 @@ body{
     text-align: center;
     justify-content: center;
     padding: 10px 0px 10px 0px;
-}
-
-hr{
-    width: 100%;
 }
 
 .container-local-date h1{
