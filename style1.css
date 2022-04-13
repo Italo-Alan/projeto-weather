@@ -195,6 +195,91 @@ button{
     cursor: pointer;
 }
 
+
+@media (max-width:425px){
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .container{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .container-tittle{
+        font-size: 10px;
+        font-weight: 700;
+        width: 100%;
+        padding: 2px;
+    }
+
+    .container-local-date h1{
+        font-weight:400;
+        font-size: 30px;
+        text-align: center;
+        padding: 2px;
+        white-space: nowrap;
+    }
+    
+    .container-local-date h2{
+        font-weight:100;
+        font-size: 14px;
+        text-align: center;
+        padding: 2px;
+    }
+
+    .container-temp{
+        font-size: 4rem;
+        font-weight: 500;
+    
+    
+        text-shadow: 3px 6px rgb(0 0 0 / 20%);
+    
+        
+        box-shadow: 5px 6px rgb(0 0 0 / 10%);
+    
+        width: 90%;
+        background-color: var(--colorTheme);
+        border: 1px solid transparent;
+        text-align: center;
+        margin: 16px 24px;
+    }
+
+    .checkbox{
+        opacity: 0;
+        width:60px;
+        height: 30px;
+        position: absolute;
+        cursor: pointer;
+        z-index: 1;
+        left: 85%;
+    }
+    
+    .label{
+        background-color: var(--color-font);
+    
+        left: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 5px;
+        position: relative;
+        border-radius: 50px;
+        height: 26px;
+        width: 50px;
+    }
+
+    .container-search input{
+        display: inline-block;
+        width: 100%;
+        border: 1px solid black;
+        padding: 6px 12px 6px 12px;
+        border-radius: 3px;
+    }
+}
+
 @media (max-width:320px){
     body{
         width: 100%;
