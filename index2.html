@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/beced1c515.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicons/Oxygen-Icons.org-Oxygen-Status-weather-clouds.ico" type="image/x-icon">
+</head>
+<body>
+    <input type="checkbox" class="checkbox">
+    <label for="checkbox" class="label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+    </label>
+    <main class="main-container">
+        <div class="container-tittle">
+            Tempo e Temperatura
+        </div>
+        <div class="container">
+            <div class="container-local-date">
+                <h1 id="city">Cidade Exemplo, BR</h1>
+                <h2 id="full-data">Terça, 7 de Abril de 2022</h2>
+            </div>
+            <div class="container-img">
+                <img src="icons/unknown.png" alt="nuvem-com-interrogação" id="img">
+            </div>
+            <div class="container-temp">
+                22ºC
+            </div>
+            <div class="container-weather">
+                Nublado
+            </div>
+            <div class="container-low-max">
+                10ºC/30ºC
+            </div>
+        </div>
+        <div class="container-search">
+            <input type="text" name="" id="search-input" placeholder="Digite o nome da cidade">
+            <span>
+                <button id="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </main>
+    <script src="script2.js"></script>
+</body>
+</html>
